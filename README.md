@@ -1,39 +1,17 @@
-# Jet.js:一款轻量级、渐进式的MVVM框架
-## 介绍
+# RSS Builder by B!Soft MarkBook RSS Feed 
 
-笔者今天介绍一款轻量级、渐进式的MVVM框架 [Jet.js](https://www.jet-js.com)，详细使用和安装教程请[点击这里](https://www.jet-js.com)
-Jet不依赖任何第三方库，采用数据双向绑定，以数据驱动视图。
+https://www.markbook.com MarkBook RSS Feed. Keep up to date on the latest news. en-us mrichardson@acadiemgroup.com The Acadiem Group 2020 NEW MarkBook HTML5 is Here! 10 Oct 2020 10:00:00 -0400 
 
-Jet可以在非服务器环境中开发，但是在非服务其环境中无法使用路由功能和jload属性以及无法使用完整的js模块规范。 Jet可以通过引入script标签的方式局部使用，从而可以与您已有的项目完美结合，实现渐进式的Web开发。
-
-您也可以通过 [jet-js-cli](https://www.npmjs.com/package/jet-js-cli) 建立项目 或是 手动下载 Jet模板 来在服务器环境中开发， 服务器环境基于lite-server。
-
-当然若您需要使用es6进行您的项目开发，您可以在安装jet-js-cli后通过jet build命令将es6转换为es5在生产环境中使用。
-
-## 图解
-
-在使用和学习Jet之前，先通过一张图了解一下Jet是如何工作，以及Jet能做些什么。
-
-以下是一个标准的Jet应用的所有主要部分和工作流程。
-
-Jet将 DOM树映射成Jet组件树，Jet组件由new Jet()声明， 每一个Jet组件由源数据、响应数据、函数、Jet元素树、生命周期和非响应数据构成。 其中Jet元素树对应的是由Jet容器中的DOM树映射而成。
-
-Jet元素分为两大类：绑定元素和工具元素。这些元素都继承自Jet.Base，Jet元素是Jet MVVM模式的核心。 每个Jet元素由源数据、响应域数据、DOM元素、响应域函数队列、$regist、$refresh还有其他一些方法组成， 其中View对应的就是DOM元素，Modal对应的是源数据，其他部分构成ViewModel，负责源数据与DOM之间的双向绑定。
-
-除此之外，Jet还包含一些外围设施供开发者开箱即用，帮助更高效的构建Web应用。
-
-Jet组件包含的特性和Jet元素包含的修饰属性，为Jet应用赋予更强大的功能。
-
-![Jet 图解](https://www.jet-js.com/src/image/Jet%E5%9B%BE%E8%A7%A3.jpg)
-
-每一个Jet组件都有它的生命周期，包含以下9个， 大致流程请参考下图:
-
-![Jet 生命周期](https://www.jet-js.com/src/image/Jet%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.jpg)
-
-## 一个基本的Jet实例
-
-以下是一个简单的Jet组件
-[点击这里](https://www.jet-js.com/#/code) 可以在线使用这个例子
+https://www.markbook.com mrichardson@acadiemgroup.com News Our ALL NEW MarkBook HTML5 Web Application is Here! Flash or Flex is no longer required. Many added features in a clean new look. Now you can use MarkBook on your Chromebook, Android or iPadOS tablet as well as Windows, macOS or Linux devices. (Select tablets only) A new version of the app, 1.1.0 22 Dec 2020 16:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.1.0, has been launched. It contains a major security update. Please see the Release Notes for the details. A new version of the app, 1.2.0 26 Jan 2021 17:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.2.0, has been launched. You can now Copy Comments to many students at once and easily input entries on tablets using Numeric Keypad. Please see the Release Notes for the details. A new version of the app, 1.3.0 25 Mar 2021 17:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.3.0, has been launched. Please see the Release Notes for the details. A new version of the app, 1.4.0 30 Apr 2021 08:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.4.0, has been launched. Please see the Release Notes for the details. For TDSB users 6 Aug 2021 08:00:00 -0400 
+http://tdsb.on.ca/ mrichardson@acadiemgroup.com News TDSB users: In preparation for Single Sign On service in September, all usernames now use your Toronto District School Board email address. TDSB-logo.png Attention TDSB Users 18 Sep 2021 01:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News On Saturday September 18th, Single Sign On (SSO) will be implemented for TDSB MarkBook (Cloud) users. After the implementation is completed, teachers will be required to sign onto MarkBook using their TDSB e- mail address and password. Teachers that are already signing onto MarkBook with their TDSB email address will have their existing class data maintained. Teachers that are currently using personal email accounts will need to contact support@markbookapp.com to request existing class data transfers, if required. TDSB-logo.png For TVDSB Users 09 Sep 2022 01:00:00 -0400 
+https://www.markbook.com News On Tuesday, September 6th, Single Sign On (SSO) was implemented for TVDSB MarkBook (Cloud) users. Teachers are now required to sign onto MarkBook using their TVDSB e-mail address and password in the Microsoft 365 Apps environment. Please follow the Information Guidesheet for "Transfer from Individual to Corporate Domain using SSO in MarkBook®”. Teachers that are already signing onto MarkBook with their TVDSB email address will have their existing class data maintained. Teachers that are currently using personal email accounts will need to contact 
+support@markbookapp.com to request existing class data transfers, if required. TVDSB-logo.webp WECDSB 31 Oct 2022 01:00:00 -0400 
+https://www.markbook.com News WECDSB users, please ensure that you have updated ALL of your courses with the most recent Aspen extract that has your first initial and last name in the file name (i.e. see below). Furthermore, please ensure you have submitted a copy (screenshots) of your updated courses to your school-issued Google form. WECDSB-logo.png
 ```
 <div j='message'></div><br>
 <div j='user'>
