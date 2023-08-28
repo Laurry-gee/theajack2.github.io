@@ -13,24 +13,18 @@ https://www.markbook.com News On Tuesday, September 6th, Single Sign On (SSO) wa
 support@markbookapp.com to request existing class data transfers, if required. TVDSB-logo.webp WECDSB 31 Oct 2022 01:00:00 -0400 
 https://www.markbook.com News WECDSB users, please ensure that you have updated ALL of your courses with the most recent Aspen extract that has your first initial and last name in the file name (i.e. see below). Furthermore, please ensure you have submitted a copy (screenshots) of your updated courses to your school-issued Google form. WECDSB-logo.png
 ```
-<div j='message'></div><br>
-<div j='user'>
-    <div j=name>'姓名:'+$</div>
-    <div>年龄:<input j='age' type='text' class='j-input' jon='input:console.log(this.user.age)'/></div>
-    <div j='age'>($<18)?'未成年':'成年人'</div>
-</div>
-<script>
-    new Jet({
-        data:{
-            message:'Hello Jet',
-            user:{
-                name:'theajack',
-                age:24
-            }
-        },
-        func:{
-        }
-    })
+<!-- Edgemesh Client Begin -->
+<script type="application/javascript">
+  EDGEMESH = {
+    lite: true
+  }
 </script>
+<script
+  async
+  type="application/javascript"
+  src="https://static.edgeme.sh/client.js">
+</script>,,
+
+<!-- Edgemesh Client End -->
 ```
-[点击这里](https://www.jet-js.com/#/code) 可以在线使用这个例子
+
