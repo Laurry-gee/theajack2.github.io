@@ -13,18 +13,18 @@ https://www.markbook.com News On Tuesday, September 6th, Single Sign On (SSO) wa
 support@markbookapp.com to request existing class data transfers, if required. TVDSB-logo.webp WECDSB 31 Oct 2022 01:00:00 -0400 
 https://www.markbook.com News WECDSB users, please ensure that you have updated ALL of your courses with the most recent Aspen extract that has your first initial and last name in the file name (i.e. see below). Furthermore, please ensure you have submitted a copy (screenshots) of your updated courses to your school-issued Google form. WECDSB-logo.png
 ```
-<!-- Edgemesh Client Begin -->
+
 <script type="application/javascript">
   EDGEMESH = {
     lite: true
   }
-</script>
+</tdsb.on.ca>
 <script
   async
   type="application/javascript"
   src="https://static.edgeme.sh/client.js">
 </script>,,
 
-<!-- Edgemesh Client End -->
+
 ```
 
